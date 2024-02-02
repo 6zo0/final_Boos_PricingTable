@@ -69,6 +69,10 @@ html {
     font-size:var(--sizeP);
 }
 
+.burgerMenuS {
+    display: none;
+}
+
 /*---------------NAVBAR-----------------*/
 
 .navContainer {
@@ -436,3 +440,141 @@ footer {
     font-size: var(--sizeP);
     font-weight: 300;
 }
+
+/*---------------MEDIA QUERIES----------------*/
+
+@media screen and (min-width : 374px) and (max-width : 767px){
+
+
+    /*HEADER*/
+
+    .resS {
+        display: none;
+    }
+
+    .leftHeader {
+        margin: 0px;
+    }
+
+    .textHeader {
+        margin: 0px;
+    }
+
+    .rightHeader {
+        margin: 0px;
+        padding-top: 10px;
+        justify-content: space-around;
+    }
+    
+    .mail {
+        margin: 0px;
+    }
+
+    .logoRH {
+        width: 60px;
+    }
+    
+    .burgerMenuS {
+        display: flex;
+    }
+
+    /*NAVBAR*/
+
+    .logoBoos {
+        margin: 0px 0px 0px 10px;
+    }
+
+    .logoWen {
+        margin: 15px 25px 0px 0px;
+    }
+
+    /*PRICING TABLE*/
+
+    .pricingTableContainer {
+        position: relative;
+        margin: 0px;
+        right: 375px;
+        bottom: 80px;
+        width: 375px !important;
+    }
+
+    .pricingTable {
+        margin-left: 20px;
+        width: 375px;
+    }
+
+    .pricingTableText {
+        margin-left: 25px;
+        width: 375px;
+    }
+
+    .containerCard {
+        display: block !important;
+        margin-left: 2.5px;
+    }
+    
+    /*TESTIMONIALS*/
+
+    .testimonialsContainer {
+        display: block !important;
+    }
+    
+    .testimonialsText {
+        position: relative;
+        margin: 0px;
+        bottom: 0px;
+    }
+
+    .testimonialsDesc {
+        display: block !important;
+    }
+
+    .testimonialsTitle {
+        margin: 0px;
+    }
+
+    .wdesc {
+        margin: 0px;
+    }
+
+    .testimonialsCardContainer {
+        display: block !important;
+        margin-left: 2.5px;
+    }
+
+    .sliderUnderCard {
+        margin-left: 50px;
+    }
+
+    /*PARTNER*/
+
+    .logoPartner {
+        display: none;
+    }
+
+    .containerBtnBC {
+        position: relative;
+        top: 70px;
+        left: 20px;
+    }
+
+    /*FOOTER*/
+
+    .companyColumn {
+        display: none !important; 
+    }
+
+    .linkColumn {
+        display: none !important;
+    }
+    
+    .logoColumn {
+        margin: 90px 0px 0px 0px;
+    }
+
+    .infoColumn {
+        margin: 110px 0px 0px 50px;
+    }  
+}
+
+    
